@@ -1,6 +1,6 @@
-let wordsLevel1 = ["led", "med", "kat", "mlad", "alo", "neshto", "rim"];
-let wordsLevel2 = ["kartof", "zele", "zenica", "morkov", "fytbol", "motor", "dybay", "parish"];
-let wordsLevel3 = ["ychilishte", "helicopter", "lamborgini", "vendeta", "kaliforniq"];
+let wordsLevel1 = ["ice", "honey", "cat", "hello", "eye", "neshto", "rome"];
+let wordsLevel2 = ["potato", "cabbage", "carrot", "football", "motor", "dybai", "paris"];
+let wordsLevel3 = ["something", "helicopter", "lamborgini", "vendetta", "kaliforniya"];
 
 let wrongGuesses = document.getElementById("counter");
 let gameResult = document.getElementById("gameResult");
@@ -26,7 +26,7 @@ let newGame = () => {
         }
     }
 
-    //Removes the text that appearec after the game is won or lost
+    //Removes the text that appeares after the game is won or lost
     let gameResult = document.getElementById("gameResult");
     if (gameResult.innerHTML !== "") {
         gameResult.innerHTML = "";
